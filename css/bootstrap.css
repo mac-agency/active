@@ -187,6 +187,16 @@ td,
 th {
   padding: 0;
 }
+
+.top_line {
+  width: 100%;
+  height: 5px;
+  background-color: hsla(0,0%,0%,1.00);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -1102,8 +1112,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #23527c;
-  text-decoration: underline;
+  /* [disabled]color: #23527c; */
+  /* [disabled]text-decoration: underline; */
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
