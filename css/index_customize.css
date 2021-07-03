@@ -267,19 +267,19 @@ height: 100%;
 }
 
 .price_waku {
-  border-left-color: hsla(185,33%,49%,1.00);
-  border-right-color: hsla(185,33%,49%,1.00);
-  border-bottom-color: hsla(185,33%,49%,1.00);
-  border-left-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  padding: 10px 10px 10px 5px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  min-height: 170px;
+	border-left-color: hsla(185,33%,49%,1.00);
+	border-right-color: hsla(185,33%,49%,1.00);
+	border-bottom-color: hsla(185,33%,49%,1.00);
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	padding: 10px 10px 10px 5px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	min-height: 50px;
 }
 
 .price_name {
@@ -473,6 +473,27 @@ a:focus {
   line-height: 2em;
   border-radius: 10px;
   text-align: center;
+}
+
+.price_fee2 {
+	color: hsla(185,33%,49%,1.00);
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: bold;
+	font-size: 29px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.display-mail {
+	color: #FFFFFF;
+	font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+	font-weight: bold;
+	font-size: x-large;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-bottom: 10px;
+	border-radius: 10px;
 }
 
 @media (max-width:320px){
